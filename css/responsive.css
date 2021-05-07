@@ -1,0 +1,267 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+ 
+ 
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+  .button-col-1{
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-indent: 50rem;
+    margin: 25px 0;
+  }
+}
+
+@media only screen and (max-width : 1150px){
+  .fist-img-text{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 40% !important;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width : 1100px) {
+  .button-col-1{
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-indent: 47rem;
+    margin: 25px 0;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+  .fistcircle{
+    position: relative;
+    float: right;
+    width: 200px;
+  }
+  .fist-img-text{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 90px !important;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    color: #fff;
+  }
+  .sideimg{
+    margin-top: 0px !important;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #445369;
+    font-size: 100px;
+    margin-top: -120px !important;
+    letter-spacing: 10px !important;
+    font-weight: 700;
+    margin-left: 20px !important;
+  }
+  
+  .text-2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #445369;
+    margin-top: -50px;
+    font-size: 100px;
+    letter-spacing: 10px !important;
+    font-weight: 700;
+    margin-left: 20px !important;
+  }
+
+  .button-col-1{
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-indent: 35rem;
+    margin: 25px 0;
+  }
+}
+
+@media only screen and (max-width : 877px) {
+  .fist-img-text{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 90px !important;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    font-size: 43px;
+    color: #fff;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .fist-img-text{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 90px !important;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width : 737px) {
+  .button-col-1{
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-indent: 30rem;
+    margin: 25px 0;
+  }
+
+  .fist-img-text{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 90px !important;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    font-size: 43px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width : 726px) {
+  .fist-img-text{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 90px !important;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width : 641px) {
+  .button-col-1{
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-indent: 25rem;
+    margin: 25px 0;
+  }
+}
+
+@media only screen and (max-width : 580px) {
+  .fist-img-text{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 90px !important;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width : 538px) {
+  .button-col-1{
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-indent: 20rem;
+    margin: 25px 0;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+  .fistcircle{
+    position: relative;
+    float: right;
+    margin-right: 0px !important;
+    width: 200px;
+  }
+
+  .fist-img-text{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 90px !important;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .text-1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #445369;
+    font-size: 90px;
+    margin-top: -40px !important;
+    letter-spacing: 5px !important;
+    font-weight: 600;
+    margin-left: 20px !important;
+  }
+  
+  .text-2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #445369;
+    margin-top: -50px;
+    font-size: 90px;
+    letter-spacing: 3px !important;
+    font-weight: 600;
+    margin-left: 20px !important;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+  
+}

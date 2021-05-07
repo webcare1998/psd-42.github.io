@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden !important;
+}
+
+.body{
+  background-image:linear-gradient( to right, rgba(255,255,255,0.9) 50%, rgba(245, 155, 123, 0.9)50%), url('../img/bg-1.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /*linear-gradient( to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../img/bg-1.png') ;*/
+   /*linear-gradient( to right, rgba(255,255,255,0.9) 50%, rgba(245, 155, 123, 0.9)50%), url('../img/bg-1.png') ;
+   linear-gradient( to right, rgba(255,255,255,0.9),rgba(245, 155, 123, 0.9)), url('../img/bg-1.png') ;
+   linear-gradient( to right, rgba(255,255,255,0.9),rgba(255, 255, 255, 0.9)), url('../img/bg-1.png') ;
+  background-size: cover; */
+  /*linear-gradient(to left, #f1f1f1 50%, #FBD3B6 50%)*/
+}
+
+.row-1{
+  margin-bottom: -20px;
+}
+
+.logo{
+  width: 180px;
+  padding-top: 15px;
+  margin-left: 30px;
+}
+
+.fistcircle{
+  position: relative;
+  float: right;
+  width: 200px;
+}
+
+.fist-img-text{
+  font-family: 'Lobster', cursive;
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #fff;
+}
+
+.text-1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #445369;
+  font-size: 10rem;
+  margin-top: -70px !important;
+  letter-spacing: 10px !important;
+  font-weight: 700;
+  margin-left: 20px !important;
+}
+
+.text-2{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #445369;
+  margin-top: -50px;
+  font-size: 10rem;
+  letter-spacing: 10px !important;
+  font-weight: 700;
+  margin-left: 20px !important;
+}
+
+.text-3{
+  color: #f18b4f;
+  margin-top: -20px;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 20px !important;
+}
+
+.text-4{
+  margin-left: 20px !important;
+}
+
+.secendcircle{
+  position: relative;
+  margin-top: -155px !important;
+}
+
+.secendcircle-2{
+  position: relative;
+  margin-top: -150px !important;
+  margin-left: -15px !important;
+}
+
+.fa-1{
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+}
+
+.fa-1-2{
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.fa-text{
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.fa-text-2{
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.fa{
+  color: #fff;
+  margin-right: 25px;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.fa:hover{
+  transform: translateY(-20px);
+}
+
+.sideimg{
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-sm-12{
+  margin-right: 0px !important;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F4AE8D;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 25px;
+  color: #000;
+  display: block;
+  margin-left: 0 !important;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fff;
+  font-size: 30px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.fa-align-center{
+  color: #333333;
+}
+
+.button-col-1{
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-indent: 57rem;
+    margin: 25px 0;
+}
